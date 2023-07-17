@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
 <head>
 <%@page import="java.sql.*" %>
 <link href="estilo.css" rel="stylesheet" type="text/css" />
