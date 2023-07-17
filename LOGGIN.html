@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.cdnfonts.com/css/chau-philomene-one" rel="stylesheet">
+    
+    <title>Loggin</title>
+</head>
+<body>
+<header>
+</header>
+<section>
+     <div class="loggin">
+     <form action="loggin.jsp" method="post">
+        <img class="logo_prin" src="Imagenes/Logo-Login.png" alt="logo">
+        <div class="contenedor1">
+            <div class="input_contenedor1">
+                <i><img class="log-reg" src="Imagenes/usuario.png" alt="icono1"></i>
+                <input class="mcqueen"  type="text" name="introducir_usuario" id="usuario" required="obligatorio" placeholder="USERNAME">
+                <span class="obligatorio">*</span>
+            </div>
+        </div>
+        <div class="contenedor2">
+            <div class="input_contendor2">
+                <i><img class="log-reg" src="Imagenes/contraseña.png" alt="icono2"></i>
+                <input class="mcqueen" type="password" name="introducir_password" id="password" required="obligatorio" placeholder="PASSWORD">
+                <span class="obligatorio">*</span>
+            </div>
+            <button class="sig-re" type="submit" name="enviar_loggin" id="enviar"><p>Sign in</p></button>
+        </div>
+     </form>
+        <button class="sig-al" ><a href="REG_USUARIOS.html"> <p>Register</p></a> </button>
+        <p class="aviso">
+            <span class="obligatorio"> *Los campos son obligatorios. </span>
+        </p>
+    </div>
+</section>  
+</body>
+</html>

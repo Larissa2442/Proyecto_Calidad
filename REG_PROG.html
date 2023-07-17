@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.cdnfonts.com/css/chau-philomene-one" rel="stylesheet">
+    <title>Registro del Curso de Programación</title>
+</head>
+<body>
+    <header class="banner">
+        <a class="Logo" href="HOME36.html"><img  src="Imagenes/SOLOCIENCIA-lo.png" alt="logo"></a>
+        <a class="Busqueda" href="https://www.google.com/"><img src="Imagenes/busqueda.png" alt="Buscador"></a>
+        <a class="RSocial" href="https://instagram.com/solocienciasa?igshid=MzRlODBiNWFlZA=="><img src="Imagenes/instagram.png" alt="logo_insta"></a>
+        <a class="RSocial" href="https://www.facebook.com/profile.php?id=100093716177676"><img src="Imagenes/facebook.png" alt="logo_face"></a>    
+    </header>
+    <nav >
+    <div class="menu">
+            <ul>
+              <li><a href="HOME36.html">HOME</a></li>
+	          <li><a href="REG_CNATURALES2.html">NATURALES</a></li>
+	          <li><a href="REG_QUIMICA_BIOLOGIA.html">QUÍMICA/BIOLOGÍA</a></li>
+	          <li><a href="REG_PROG.html">PROGRAMACIÓN</a></li>
+	          <li><a href="Referencias.html">REFERENCIAS</a></li>
+	          <li><a href="contactos.html">CONTACTANOS</a></li>
+            </ul>
+          </div>
+    </nav>
+<section class="espacio"> 
+<div class="conjunto">
+    <div class="picture">
+<img class = "img_picture" src="Imagenes/PROGRAMACION.png">
+</div>
+     <div class="registro">
+     <form action="enviarprogr.jsp" method="post">
+     <img class="logo_prin" src="Imagenes/CURSO C. NATURALES.png" alt="logo">
+            <div class="contenedor3">
+                <div class="input_contendeor3">
+                    <i> <img class="log-reg" src="Imagenes/usuario.png" alt=icono3 width="10px" height="10px">   </i>
+                    <input class="mcqueen" type="text" name="introducir_nombre" id="usuario" required="obligatorio" placeholder="NOMBRE">
+                    <span class="obligatorio">*</span>
+                </div>
+            </div>
+            <div class="contenedor4">
+                <div class="input_contendeor4">
+                    <i><img class="log-reg" src="Imagenes/cédula.png" alt=icono4></i>
+                    <input class="mcqueen" type="text"  name="introducir_cedula" id="usuario" required="obligatorio" placeholder="CÉDULA">
+                    <span class="obligatorio">*</span>
+                </div>
+            </div>
+            <div class="contenedor5">
+                <div class="input_contendeor5">
+                    <i><img class="log-reg" src="Imagenes/fecha.png" alt=icono5></i> 
+                    <label class="fecha" for="fecha">Fecha de inicio del curso:</label>
+                    <div>
+                        <div id="checkboxes1" class="checkbox-style">
+                            <ul>
+                            <li><input class="mcqueen" required="obligatorio" type="radio" id="julio" name="fecha" value="20 de Julio"> <label class="fecha" for="julio">20 de julio</label></li>                  
+                            <li><input class="mcqueen" required="obligatorio" type="radio" id="octubre" name="fecha" value="24 de octubre"> <label class="fecha" for="octubre">24 de octubre</label></li>
+                            <li><input class="mcqueen" required="obligatorio" type="radio" id="noviembre" name="fecha" value="14 de noviembre"> <label class="fecha" for="noviembre">14 de noviembre</label></li>
+                            </ul>
+                            </div>
+                    </div>
+                    <span class="obligatorioR">*</span>
+                </div>
+            </div>
+                <button class="sig-al" type="submit" name="enviar_register" id="enviar2"><p>Enviar</p></button>
+            </form>
+            </div>
+     <p class="aviso">
+        <span class="avisoRe"> *Los campos son obligatorios. </span>
+    </p>
+    </div>
+</section>
+<footer>
+    <div>
+        <div class="FooterN" > <a href="REG_CNATURALES2.html"> <h3 class="ti_foot"">NATURALES</h3> </a></div>
+        <div class="Footer" >
+            <ul>
+                <li><a href="https://instagram.com/solocienciasa?igshid=MzRlODBiNWFlZA=="><img src="Imagenes/instagram.png" width="30" height="30"></a></li>
+                <li class="yutub"><a href="https://youtu.be/T_lC2O1oIew"><img src="Imagenes/youtube.png" width="34" height="34"></a></li>
+                <li><a href="https://twitter.com/?lang=es"><img src="Imagenes/twitter.png" width="37" height="33"></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100093716177676"><img src="Imagenes/facebook.png" width="30" height="30"></a></li>
+                <li><div class="log_out"><a href="LOGGIN.html"> <h3 class="log_o">Logout</h3> </a></div> </li>
+            </ul>
+                <h5 class="copyright">Copyright© 2023 all rights reserved.</h5> 
+        </div>
+        <div class="FooterBQ" ><a href="REG_QUIMICA_BIOLOGIA.html"> <h3 class="ti_foot">QUÍMICA/BIOLOGÍA</h3> </a></div>
+        <div class="FooterP" ><a href="REG_PROG.html"> <h3 class="ti_foot">PROGRAMACIÓN</h3> </a> </div>
+        <div class="FooterRef" ><a href="Referencias.html"> <h3 class="ti_foot">REFERENCIAS</h3> </a> </div>
+        <div class="FooterContz" ><a href="contactos.html"> <h3 class="ti_foot">CONTÁCTANOS</h3> </a> </div>
+      </div>
+</footer>     
+</body>
+</html>

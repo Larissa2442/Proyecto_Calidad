@@ -1,0 +1,769 @@
+/*Modificaciones Generales*/
+*{
+    margin: 0%;
+    padding: 0%;
+    }
+ body{
+   background-color: #E4F1EA;
+    margin: 0;
+    font-family: 'Chau Philomene One', sans-serif;
+    zoom: 90%;
+}
+section{
+  padding-top: 150px;
+}
+  input{
+    width: 368px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px; 	
+    margin-bottom: 20px; 
+    margin-top: 10px; 	
+    text-transform: uppercase;
+    border-style: solid; 
+    border-radius: 10px;	
+    width: 420px;   
+    cursor: pointer;
+  }
+  button:hover{
+      background-color: silver;
+      border-color: silver;
+  }
+  button:active{
+      background-color: rosybrown;
+      border-color: rosybrown;
+  }
+  button p{
+    color: black;
+      text-align: center;
+  }
+  span{
+    color: #ab4493; 
+  }
+   h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+  }
+  p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+  } 
+/*-------------------
+---------- Header--------
+----------------------*/
+.banner{
+    display: flex;
+    background-color: #39936a; 
+    display: flex;
+    height: 120px;
+    position: fixed;
+    width: 100%;
+}
+.Logo{ 
+  margin-left: 20px;
+  margin-top: 15px;
+
+}
+.Logo img{
+width: 370px;
+height: auto;
+}
+.Busqueda{
+  margin-left: 530px;
+  margin-top: 32px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.Busqueda img{
+width: 430px;
+height: auto;
+}
+.RSocial{
+  margin-left: 10px;
+  margin-top: 35px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.RSocial img{
+  width: 40px;
+  height: 40px;
+}
+/*-------------------
+---------- Nav--------
+----------------------*/
+ .menu{
+  background-color: #0c3746;
+  width: 100%;
+  height: 50px;
+  padding-top: 125px;
+  padding-bottom: 13px;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0px 10px 10px #cfc2c2;
+}
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.menu li {
+  display: inline;
+}
+.menu a{
+  padding: 55px;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-family: "Georgia";
+   font-weight: bold;
+  color: white;
+  padding-right: 75px; 
+  display: inline-block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; 
+}
+.menu a:hover {
+  background-color: #646270;
+}
+/*-------------------
+---------- Footer--------
+----------------------*/  
+footer{
+    background-color: #0c3746;
+    color: white;
+   margin-top: 50px;
+  }
+  /* borra los flotantes despues de las columnas*/
+  footer:after {
+    content: "";
+    display: table;
+    clear: both;
+    height: 5px;
+  }
+.ti_foot{
+  font-style: normal;
+  font-size: 80%;
+  color: white;
+}
+.FooterN {
+    float: left;
+    width: 10%;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 30px; 
+    border-radius: 50px;
+    text-align: center;
+    margin-left: -10px;
+  }
+  .Footer {
+    float: right;
+    width: 42%;
+    padding: 1px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    height: 30px; 
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 100px;
+  }
+  .FooterBQ {
+    float: left;
+    width: 15%;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 30px; 
+    border-radius: 50px;
+    margin-left: 5px;
+    text-align: center;
+    margin-left: -35px;
+  }
+  .FooterP {
+    float: left;
+    width: 15%;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 30px; 
+    border-radius: 50px;
+    margin-left: 5px;
+    text-align: center;
+    margin-left: -35px;
+  }
+  .FooterRef{
+    float: left;
+    width: 10%;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 30px; 
+    border-radius: 50px;
+    margin-left: 5px;
+    text-align: center;
+    margin-left: -35px;
+  }
+  .FooterCont{
+    float: left;
+    width: 15%;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 30px; 
+    border-radius: 50px;
+    margin-left: 5px;
+    text-align: center;
+    margin-left: -30px;
+  }
+  .FooterContz{
+    float: left;
+    width: 15%;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: -55px;
+    height: 30px; 
+    border-radius: 50px;
+    margin-left: 5px;
+    text-align: center;
+    margin-left: -30px;
+  }
+  .copyright{
+    margin-top: 40px;
+    font-size: 90%;
+    margin-left: 310px;
+    padding: 0%;
+    font-family: none;
+  }
+  /*------------------------------
+----------pagina de loggin--------
+----------------------------------*/  
+.loggin{	
+    width: 460px;
+    margin-left: 525px;
+    margin-top:-70px; 
+    border-radius: 10px;  
+    padding-bottom: 20px;  
+    background-color: #E4F1EA; 
+    padding-left: 30px; 
+  }
+  .logo_prin{
+    height: 240px;
+    width: 400px;
+    margin-left: 10px;
+    margin-bottom: -50px;
+  }
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  .sig-re{
+  margin-left: 35px;
+  width: 380px;
+  background-color: #72B295;
+  border-color: #72B295;
+}
+.sig-al{
+  background-color: #D1DFFF;
+  border-color: #72B295;
+  margin-left: 35px;
+  width: 380px;
+}  
+.sig-al a{
+color: black;
+}
+.log-reg{
+  height: 30px;
+  width: 30px;
+}
+.mcqueen{
+  background-color: #72B295;
+  border-color: #72B295
+}  
+  /*cambia de color las palabras del input dentro del registro*/
+  ::-webkit-input-placeholder {
+   color: black;
+   font-family: "Latin Modern Roman";
+  }
+  .obligatorio{
+   font-family: "Latin Modern Roman";
+   }
+  /*----------------------------------------
+--------------Pagina Registros------------
+--------------------------------------------*/ 
+.registro{	
+  margin-left: 100px;
+}
+.espacio{
+  margin: 0px;
+  padding: 0px;
+}
+ .radio{
+      width: 20px; 
+    height: 40px; 
+  }
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  .checkbox{
+      width: 20px; 
+    height: 40px; 
+  }
+  .nom_hd{
+    margin-top: 30px;
+  }
+  .checkbox-style {
+    display:inline-block;
+    margin-left: -10px;
+    font-size: 15px;
+    padding: 2%;
+    margin-bottom: 30px;
+  }
+.checkbox-style input{
+  width: 15px;  
+  position: absolute;
+}
+.checkbox-style label{
+  width: 15px;  
+  padding-left: 18px;
+  position: relative;
+  top:20px;
+}
+.obligatorioR{
+  position: relative;
+  top:-57px;
+  margin-left:420px;
+}
+.avisoR{
+  font-size: 13px;  
+  position: relative; 
+  top:439px;
+  margin-left: -500px;
+}
+.avisoRe{
+  font-size: 13px;  
+  position: relative; 
+  top:439px;
+  margin-left: -430px;
+  font-family: "Latin Modern Roman";
+}
+.picture{
+	height: 744px
+}
+.img_picture{
+	width: 935px;
+	height: 794px;
+}
+.fecha{
+	font-family: "Latin Modern Roman";
+	color: darkslategray;
+}
+  /*------------------------------
+---------------HOME---------------
+----------------------------------*/ 
+.dv_principal{
+  background-image: url('Imagenes/avance\ cientifico.png');
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  background-size: 100% 260px;
+  margin-bottom: 100px;
+  margin-top: -150px;
+  padding-top: 40px;
+}
+.subt{
+  background-color: #232725;
+  width: 39%;
+  height: 150px;
+  text-align: center;
+  margin-left: 30%;
+}
+.subt h2{
+  padding-top: 25px;
+  margin-bottom: -10px;
+  font-family: "Georgia";
+  color: white;
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+}
+.subt h3{
+  margin-top: 20px;
+  margin-bottom: -10px;
+  font-family: "Georgia";
+  font-size: 32px;
+  color: white;
+  text-align: center;
+}
+/* borra los flotantes despues de las columnas de la clase row */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row{
+  margin-top: 200px;
+}
+.row a{
+    color: #7336FA;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.ti_not{
+  padding: 10px;
+  font-family: "Georgia";
+   font-weight: bold;
+  font-style: normal;
+  text-align: justify;
+  font-size: 150%;
+}
+/* ref1 es una clase de h1 que me permite ajustar los margenes de las referencias */
+.ref1{
+    margin-left: 90px;
+    margin-top: 60px;
+    font-size: 180%;
+}
+.Noticia1  {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 450px;
+  text-align: center;
+  margin-top: -280px;  
+}
+ iframe{
+  width:400px;
+  height:200px
+}
+.Noticia2 {
+  float: left;
+  width: 35%;
+  padding: 10px;
+  height: 450px; 
+  text-align: center; 
+  margin-top: -280px; 
+}
+.Noticia3 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 450px; 
+  text-align: center;
+  margin-top: -280px; 
+}
+.FondNot1{
+  float: left;
+  width: 380px;
+  padding: 10px;
+  height: 230px;
+  text-align: center;
+  margin-top: -20px; 
+  margin-left: 24px;
+  background-color: #D1DFFF;
+}
+.FondNot2{
+  float: left;
+  width: 380px;
+  padding: 10px;
+  height: 230px;
+  text-align: center;
+  margin-top: -20px; 
+  margin-left: 63px;
+  background-color: #D1DFFF;
+}
+.FondNot3{
+  float: left;
+  width: 380px;
+  padding: 10px;
+  height: 230px;
+  text-align: center;
+  margin-top: -20px; 
+  margin-left: 25px;
+  background-color: #D1DFFF;
+}
+  .log_o{
+    margin-right: -5px;
+    padding: 1px;
+    font-family: "Latin Modern Roman";
+    font-style: normal;
+    font-size: 90%;
+    margin-top: 2px;
+    color: #342B2B;
+  }
+  .log_o2{
+    margin-right: -5px;
+    margin-left: -10px;
+    padding: 1px;
+    font-family: "Latin Modern Roman";
+    font-style: normal;
+    font-size: 90%;
+    margin-top: 2px;
+    color: #342B2B;
+  }
+  .log_out{
+    background-color: #D1DFFF;
+    margin-right: -20px;
+    padding: 0px;
+    margin-top: -5px;
+    width: 100%;
+    height: 23px;
+    left: 100px;
+    margin-left: 100px;
+  }
+  ul{
+      list-style: none;
+      float: left;
+      padding-top: -50px;
+      margin-top: 0px;
+  }
+  li{
+      float: left;
+      padding-left: 30px;
+      padding-top: -120px;
+  }
+  .row{
+    margin-top: 300px;
+  }
+  p{
+    font: 100% georgia;
+    text-align: justify;
+  }
+  .p_soporte{
+    font: 100% georgia;
+    text-align: center;
+  }
+  h2{
+    font: 150% fantasy;
+  }
+  /*------------------------------
+-------Pagína de Referencia-------
+----------------------------------*/ 
+
+a{
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    border-collapse: collapse;
+    width: 95%;
+    height: 420px;
+    margin: 0 auto;
+}
+.DivTabla{
+    padding-top: 40px; 
+    padding-bottom: 40px;
+}
+.DivTabla h1{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    font-weight:bold;
+    font-family: "Georgia";
+}
+.DivTabla a{
+    color:#000;
+    display: block;
+    color: black;
+}
+.ElementONM{
+background-color: #DDABFF;
+text-align: center;
+border: 2px solid black;
+}
+.ElementONM:hover{
+    background-color: #031FA2 ;  
+}
+.ElementONM:hover a{
+    color: #ffffff;  
+}
+.ElementGN{
+    background-color: #00CCFF;
+    text-align: center;
+    border: 2px solid black;
+}
+.ElementGN:hover{
+    background-color: #031FA2 ;    
+}
+.ElementGN:hover a{
+    color: #ffffff
+}
+.ElementAlc{
+    background-color: #F7CAAC;
+    text-align: center;
+    border: 2px solid black;  
+}
+.ElementAlc:hover{
+    background-color: #031FA2 ;    
+}
+.ElementAlc:hover a{
+    color: #ffffff
+}
+.ElementLantAct{
+    background-color: #E2EFD9;
+    text-align: center;
+    border: 2px solid black;
+}
+.ElementLantAct:hover{
+    background-color: #031FA2 ;    
+}
+.ElementLantAct:hover a{
+    color: #ffffff
+}
+.ElementOM{
+    background-color: #FFE599;
+    text-align: center;
+    border: 2px solid black;
+}
+.ElementOM:hover{
+    background-color: #031FA2 ;    
+}
+.ElementOM:hover a{
+    color: #ffffff
+}
+.ElementMetTrans{
+    background-color: #FFFF00;
+    text-align: center;
+    border: 2px solid black;
+}
+.ElementMetTrans:hover{
+    background-color: #031FA2 ;    
+}
+.ElementMetTrans:hover a{
+    color: #ffffff
+}
+.ElementMeta{
+    background-color: #68FB61;
+    text-align: center;
+    border: 2px solid black;
+}
+.ElementMeta:hover{
+    background-color: #031FA2 ;    
+}
+.ElementMeta:hover a{
+    color: #ffffff
+}
+.ElementHal{
+    background-color: #FF66FF;
+    text-align: center;
+    border: 2px solid black;
+}
+.ElementHal:hover{
+    background-color: #031FA2 ;    
+}
+.ElementHal:hover a{
+    color: #ffffff
+}
+  /*-----------------------------------------------
+---------------Pagina de Contactanos---------------
+---------------------------------------------------*/ 
+  /* coloca los divs uno al lado de otro */
+  .conjunto{
+    display: flex;
+ 
+      }
+  .h1{
+    text-align: left;
+    font-size: 40px;
+    font-weight:bold;
+    font-family: "Georgia";
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+  .fotosp{
+    border: solid 3px #D1DFFF;
+    border-radius: 12px;
+    width:250px;
+    height:300px
+  }
+    .text{
+    text-align:center;
+    }
+    .lari{
+    margin-right: 120px;
+    margin-left: 75px;
+    margin-top: 75px;
+    margin-bottom: 100px;
+    }
+    .chris{
+      margin-right: 120px;
+      margin-top: 75px;
+      }
+      .dani{
+        margin-right: 120px;
+        margin-top: 75px;
+        }
+        .heydhe{
+          margin-right: 120px;
+          margin-top: 75px;
+          }
+     /*  Coloca el botom de home en la esquina inferior   */
+     .log_home{
+      background-color: #D1DFFF;
+      margin-right: -100px;
+      padding: 0px;
+      margin-top: -60px;
+      top: 155px;
+      width: 220%;
+      height: 23px;
+      margin-left: 125px;
+      border: solid 4px #0C3746;
+      position: relative;
+      bottom: 0;
+      right: 70px;
+      text-align: center;
+    }
+     /*-----------------------------------------------
+---------------Mensaje de error de login-boton y Mensaje exitoso---------------
+---------------------------------------------------*/
+.contenedor_mensaje{
+	height: 300px;
+	text-align: center;
+	margin-top: 25px;
+}
+.logo-error{
+	height: 150px;
+	width: 225px;
+	margin-top: -575px;
+}
+.mensaje-error{
+	margin-top: 10px;
+	height: 500px;
+	width: 700px;
+}
+.boton-error{
+	margin-top: -125px;
+}
+  .enl_ace{
+  	background-color: #72B295;
+  	color: white;
+  	padding: 15px 150px;
+  	margin-left: 20px;
+  	border-style: solid;
+    border-color: #D1DFFF;
+    border-radius: 2%;
+  }
+  .enl_ace:hover{
+  background-color: silver;
+  }
+   .enl_ace:active{
+  background-color: #556B2F;
+  } 
+.mensaje-exitoso{
+	margin-top: 10px;
+	height: 600px;
+	width: 800px;
+}
+.boton-exitoso{
+	margin-top: -225px;
+}

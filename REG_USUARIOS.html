@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.cdnfonts.com/css/chau-philomene-one" rel="stylesheet">
+    <title>Registro de usuarios</title>
+</head>
+<body>
+<section class="espacio">
+<div class="conjunto">
+    <div class="picture">
+<img class="img_picture" src="Imagenes/Registro de usuario.png">
+</div>
+     <div class="registro">
+     <form action="enviarusuario.jsp" method="post">
+        <img class="logo_prin" src="Imagenes/usuario_registro.png" alt="logo">
+        <div class="contenedor3">
+            <div class="input_contendeor3">
+                <i> <img class="log-reg" src="Imagenes/usuario.png" alt=icono3 width="10px" height="10px">   </i>
+                <input class="mcqueen" type="text" name="introducir_nombre" id="usuario" required="obligatorio" placeholder="NOMBRE">
+                <span class="obligatorio">*</span>
+            </div>
+        </div>
+        <div class="contenedor4">
+            <div class="input_contendeor4">
+                <i><img class="log-reg" src="Imagenes/apellido.png" alt=icono4></i>
+                <input class="mcqueen" type="text" name="introducir_apellido" id="usuario" required="obligatorio" placeholder="APELLIDO">
+                <span class="obligatorio">*</span>
+            </div>
+        </div>
+        <div class="contenedor5">
+            <div class="input_contendeor5">
+                <i><img class="log-reg" src="Imagenes/edad.png" alt=icono5></i>
+                <input class="mcqueen" type="number" name="introducir_edad" id="usuario" required="obligatorio" placeholder="EDAD">
+                <span class="obligatorio">*</span>
+            </div>
+        </div>
+        <div class="contenedor6">
+            <div class="input_contendeor2">
+                <i><img class="log-reg" src="Imagenes/contraseña.png" alt=icono2></i>
+                <input class="mcqueen" type="password" name="introducir_password" id="password" required="obligatorio" placeholder="CONTRASEÑA">
+                <span class="obligatorio">*</span>
+            </div>
+            <button class="sig-al" type="submit" name="enviar_register" id="enviar2"><p>Enviar</p></button>
+        </div>
+     </form>
+     <p class="aviso">
+        <span class="obligatorio"> *Los campos son obligatorios. </span>
+    </p>
+    </div>
+    </div>
+</section>
+</body>
+</html>
